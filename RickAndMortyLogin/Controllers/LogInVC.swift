@@ -54,5 +54,11 @@ class LogInVC: UIViewController {
         alertController.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
         self.present(alertController, animated: true, completion: nil)
     }
+    // for github test
+    func git() {
+        print("dobre vecher git")
+    }
+    
+    
 }
 
